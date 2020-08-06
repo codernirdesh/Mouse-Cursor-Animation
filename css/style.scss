@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cursor{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: #9add2d;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    transition: all 1s ease;
+}
